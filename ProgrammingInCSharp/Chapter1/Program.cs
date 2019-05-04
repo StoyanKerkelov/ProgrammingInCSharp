@@ -5,26 +5,33 @@ namespace Chapter1
 {
     public static class Program
     {
-        public static void ThreadMethod()
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("ThreadProc: {0}", i);
-                Thread.Sleep(100);
-            }
-        }
-
         public static void Main()
         {
-            Thread t = new Thread(new ThreadStart(ThreadMethod));
-            t.Start();
-            for (int i = 0; i < 4; i++)
-            {
-                Console.WriteLine("Main thread: Do some work.");
-                Thread.Sleep(100);
-            }
-            //t.Join();
-            Console.ReadLine();
+            // ThreadSleep.Run();
+            // BackgroundThread.Run();
+            // PassThreadData.Run();
+            // StopThreadProperly.Run();
+            // ThreadStaticAttribute.Run();
+            // TreadLocal.Run();
+            // TreadPool.Run();
+            // StartingNewTask.Run();
+            // TaskWithValue.Run();
+            // TaskContinueWith.Run();
+            // ContinuationTasks.Run();
+            // ChildTasks.Run();
+            // UsingTaskFactory.Run();
+            // gUsingWaitAll.Run();
+            // UsingWaitAny.Run();
+            // ParallelProcessing.Run();
+            // ParallelStop.Run();
+            // AsyncAndAwait.Run();
+            // ParallelLINQ.Run();
+            //CatchAggregateException.Run();
+            // UsingBlockingCollection.Run();
+            // UsingConcurrentBag.Run();
+            // UsingConcurrentStack.Run();
+            // UsingConcurrentQueue.Run();
+            UsingConcurrentDictionary.Run();
         }
     }
 }

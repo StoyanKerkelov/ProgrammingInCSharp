@@ -43,6 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="16. ParallelProcessing.cs" />
+    <Compile Include="15.UsingWaitAny.cs" />
+    <Compile Include="14.UsingWaitAll.cs" />
+    <Compile Include="13.UsingTaskFactory.cs" />
+    <Compile Include="12.ChildTasks.cs" />
+    <Compile Include="11.ContinuationTasks.cs" />
+    <Compile Include="17.ParallelStop.cs" />
+    <Compile Include="18.AsyncAndAwait.cs" />
+    <Compile Include="19.SleepAsync.cs" />
+    <Compile Include="23-4-5.ParallelLINQ.cs" />
+    <Compile Include="27.CatchAggregateException.cs" />
+    <Compile Include="32.UsingConcurrentQueue.cs" />
+    <Compile Include="33.UsingConcurrentStack.cs" />
+    <Compile Include="34.UsingConcurrentDictionary.cs" />
+    <Compile Include="30-1.UsingConcurrentBag.cs" />
+    <Compile Include="28.UsingBlockingCollection.cs" />
+    <Compile Include="_2.BackgroundThread.cs" />
+    <Compile Include="_5.ThreadStaticAttribute.cs" />
+    <Compile Include="10.TaskContinueWith.cs" />
+    <Compile Include="_9.TaskWithValue.cs" />
+    <Compile Include="_8.StartingNewTask.cs" />
+    <Compile Include="_7.ThreadPool.cs" />
+    <Compile Include="_6.ThreadLocal.cs" />
+    <Compile Include="_4.StopThreadProperly.cs" />
+    <Compile Include="_3.PassThreadData.cs" />
+    <Compile Include="_1.ThreadSleep.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
